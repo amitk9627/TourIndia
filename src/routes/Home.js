@@ -24,4 +24,9 @@ export default function Home() {
 }
 // git remote add origin https://github.com/amitk9627/tourindia.git
 
-// $
+/*git init
+git add README.md
+
+
+git remote add origin https://github.com/amitk9627/tourindia.git
+git push -u origin main */
