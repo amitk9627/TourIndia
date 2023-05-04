@@ -22,3 +22,6 @@ export default function Home() {
     </div>
   )
 }
+// git remote add origin https://github.com/amitk9627/tourindia.git
+
+// $
