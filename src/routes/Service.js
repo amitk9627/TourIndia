@@ -3,7 +3,7 @@ import Navbar from '../component/Navbar';
 import Main from '../component/Main';
 import '../component/MainStyles.css'
 import WaterBoat from '../image/waterBoat.jpg'
-
+import Footer from '../component/Footer';
 export default function Service() {
   return (
     <div>
@@ -13,6 +13,7 @@ export default function Service() {
         mainImg={`${WaterBoat}`}
         title="service"
       />
+      <Footer />
     </div>
   )
 }

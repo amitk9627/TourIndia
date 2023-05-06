@@ -3,7 +3,7 @@ import Navbar from '../component/Navbar';
 import Main from '../component/Main';
 import '../component/MainStyles.css'
 import MountainCloud from '../image/mountainsCloud.jpg'
-
+import Footer from '../component/Footer';
 export default function Contact() {
   return (
     <div>
@@ -13,6 +13,7 @@ export default function Contact() {
         mainImg={`${MountainCloud}`}
         title="contact"
       />
+      <Footer />
     </div>
   )
 }

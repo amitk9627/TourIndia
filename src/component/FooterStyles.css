@@ -1,0 +1,64 @@
+.footer{
+    padding: 4rem 6rem;
+    background-color: black;
+    color: white;
+}
+.footerTop{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: start;
+
+    flex-wrap: wrap;
+}
+.footerTop .logo{
+    margin: 0;
+    padding: 0;
+}
+.footerTop i{
+    background-color: #fff;
+    padding: 4px;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+.footerTop i:hover{
+    color: red;
+   
+}
+.footerButtom{
+    padding-top: 2rem;
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footerButtom div{
+    display: flex;
+    flex-direction: column;
+}
+.footerButtom div h4{
+    font-size: 1.4rem;
+    padding: 1rem 0 .8rem 0;
+}
+.footerButtom a{
+    color: #fafafa;
+    font-size: 1rem;
+    padding-bottom: 7px;
+}
+.footerButtom a:hover{
+    color: #08e856;
+    
+}
+@media screen and (max-width:850px) {
+    .footer{
+        padding: 4rem 2rem;
+    }
+    .footerTop .logo{
+        margin: 1.5rem 0;
+    }
+    .footerButtom div{
+        width: 50%;
+    }
+}
+
+

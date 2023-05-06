@@ -7,8 +7,14 @@ import Destinations from '../component/Destinations';
 import '../component/DestinationStyles.css';
 import Kedarnath from '../image/Kedarnath.jpg';
 import IndiaAmritsar from '../image/india-amritsar.jpg';
+import Trip from '../component/Trip';
+import '../component/TripStyles.css';
+import Footer from '../component/Footer';
+
+
+
 export default function Home() {
-  return (
+  return (<>
     <div>
       <Navbar />
      
@@ -58,9 +64,13 @@ export default function Home() {
         image2={`${IndiaAmritsar}`}
       />
 
-     
+     {/* trip */}
+     <Trip />
+
+     <Footer />
 
 
     </div>
+    </>
   )
 }
