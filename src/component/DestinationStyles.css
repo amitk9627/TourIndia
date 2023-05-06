@@ -1,0 +1,137 @@
+.destination{
+    margin:4rem 6rem;
+    
+} 
+.destination h1{
+    font-size: 3rem;
+    padding-bottom: 10px;
+   
+}
+.destination p{
+    font-size: .9rem;
+   
+}
+
+
+.des-container{
+
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* des-container-reverse */
+.des-container-reverse{
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+/*  */
+.des-text{
+    text-align:start;
+    width: 45%;
+    font-size: 1.1rem;
+
+}
+
+.des-text h2{  
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+.des-text p {
+    text-align: justify;
+}
+.image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.image img{
+    width: 49%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 7px 10px 1px rgba(0, 0,0,.2);
+
+}
+.image img:nth-child(1):hover{
+    transform: translateY(-10%);
+    transition: all 1s ease-in-out;
+}
+.image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+.image img:nth-child(2):hover{
+    transform: translateY(10%);
+    transition: all 1s ease-in-out;
+}
+/*  */
+/* .des-container .imageH{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.imageH img{
+    width: 49%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 7px 10px 1px rgba(0, 0,0,.2);
+
+}
+.imageH img:nth-child(1):hover{
+    transform: translateY(-10%);
+    transition: all 1s ease-in-out;
+}
+.imageH img:nth-child(1){
+    position: absolute;
+    top: -10%;
+    left: 0;
+}
+.imageH img:nth-child(2):hover{
+    transform: translateY(10%);
+    transition: all 1s ease-in-out;
+} */
+
+
+
+@media screen and (max-width:850px) {
+    .destination{
+        margin:4rem 2rem;
+        
+    }
+    .des-container{
+
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .des-container-reverse{
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .des-text{
+        text-align: start;
+        width: 100%;
+        font-size: 1.1rem;
+    
+    }
+     .image{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .image img{
+        height: 220px;
+        object-fit: cover;
+    }
+}
