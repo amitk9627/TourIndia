@@ -1,0 +1,52 @@
+.form{
+    border: 7px dashed blue;
+    padding: 3rem 6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    width: 100%;
+}
+.form h1{
+    font-size: 3rem;
+}
+.input-form{
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+.input-form input{
+    margin-top: 1rem;
+    border: none;
+    background-color: rgb(219, 220, 220);
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.input-form label{
+    padding-right: 1.5rem;
+}
+.textArea{
+    margin-top: 1.25rem;
+}
+.textArea >div>label{
+    padding-bottom:5rem ;
+    font-size: 1.3rem;
+}
+.textArea textarea{
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(218, 216, 216);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.btn button{
+    display: block;
+    color: black;
+    width: 80%;
+    background-color: rgb(3, 147, 99);
+}

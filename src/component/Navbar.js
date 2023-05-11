@@ -20,7 +20,7 @@ export default function Navbar() {
           </li>
          
           <li>
-            <NavLink to="/service"  className="nav-link">Service</NavLink>
+            <NavLink to="/blog"  className="nav-link">Blogs</NavLink>
           </li>
 
           <li>

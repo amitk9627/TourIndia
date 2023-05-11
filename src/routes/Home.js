@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../component/Navbar';
-import mountain from '../image/hills-g860579d9c_1920.jpg';
+import MountainRiver from '../image/mountainRiver.jpg';
 import '../component/MainStyles.css';
 import Main from '../component/Main';
 import Destinations from '../component/Destinations';
@@ -20,7 +20,7 @@ export default function Home() {
      
       <Main
         cName="home-main-image-text"
-        mainImg={`${mountain}`}
+        mainImg={`${MountainRiver}`}
         title="Namaste India"
         text="choose Your Favouite destinations"
         url="/"

@@ -1,0 +1,79 @@
+.blog{
+    margin:4rem 9rem;
+    box-shadow:0px 0px 10px rgba(20, 12, 12, 0.5);
+}
+h1{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.subIcon{
+    font-family:cursive ;
+    font-size: 1.2rem;
+    padding: 3px;
+    color: rgb(75, 77, 78);
+}
+.subIcon i{
+    margin-right: 3px; 
+    color: rgb(143, 200, 247);
+}
+img{
+    width: 100%;
+}
+.blog-text{
+    padding: 2rem;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.subSocialIcon{
+    color: rgb(185, 185, 185);
+    font-size: 2.4rem;
+    padding: 2rem 5rem;
+    border: 1px solid rgb(212, 211, 211);
+}
+.subSocialIcon:nth-child(1):hover{
+    color: rgb(22, 101, 238);
+}
+.subSocialIcon:nth-child(2):hover{
+    color: rgb(22, 214, 248);
+}
+.subSocialIcon:nth-child(3):hover{
+    color: #1c63aa;
+}
+.subSocialIcon:nth-child(4):hover{
+    color: red;
+}
+.subSocialIcon:nth-child(5):hover{
+    color: rgb(233, 61, 141);
+}
+@media (max-width:850px){
+    .blog{
+        margin:4rem 1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .subIcon{
+       font-size: 1rem;
+    }
+    .blog-text{
+        padding: 1rem;
+        letter-spacing: 0.5px;
+    }
+    .subSocialIcon{
+        font-size: 1.3rem;
+        padding: 1rem 2rem;
+    } 
+}

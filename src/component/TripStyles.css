@@ -1,9 +1,13 @@
 .trip{
     margin: 4rem 6rem;
     color: #2a2a2a;
+    /* */
 }
 .trip h1{
-    font-size: 3rem
+    font-size: 3rem; text-align: center;
+}
+.trip p{
+    text-align: center;
 }
 .tripCard{
     margin-top: 3.5rem;
@@ -40,6 +44,7 @@
 }
 .t-card p{
     color: #535252;
+    text-align: justify;
 }
 @media screen and (max-width:850px) {
     .trip{
